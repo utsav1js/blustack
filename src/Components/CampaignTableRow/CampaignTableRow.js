@@ -34,7 +34,6 @@ const months = ['Jan', "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "
 const CampaignTableRow = ({ data, openModal, onChange, diffText}) => {
     const { imageKey, name, region, createdOn } = data;
     const createdDate = new Date(createdOn);
-    const isMobile = false;
     return <div className="row-wrapper">
         <div className="flex-column">
             <span className="date-text">{months[createdDate.getMonth()]} {createdDate.getFullYear()}, {createdDate.getDate()}</span>

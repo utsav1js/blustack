@@ -1,8 +1,8 @@
 import React,{Component} from "react";
 import "./Campaigns.css";
-import data from "./../../config";
 import CampaignsDetail from "../CampaignDetail";
 import TabHeading from "../TabHeading";
+import loader from "../../assets/loader.svg";
 
 class Campaigns extends Component {
 
@@ -10,10 +10,24 @@ class Campaigns extends Component {
     super(props);
     this.state = {
       activeTab: 0,
-      config: data,
+      config: null,
+      dataLoaded: false
     };
     this.changeActiveTab.bind(this);
     this.onChange.bind(this);
+  }
+
+  async getData(){
+    const res = await fetch("https://api.myjson.com/bins/198ame");
+    var data = await res.json();
+    this.setState({
+      config:data,
+      dataLoaded:true
+    })
+  }
+
+  componentDidMount(){
+    this.getData();
   }
 
   changeActiveTab(index){
@@ -30,13 +44,17 @@ class Campaigns extends Component {
   
 
   render() {
-    let { activeTab , config} = this.state;
+    debugger;
+    let { activeTab , config, dataLoaded} = this.state;
     return (
-      <div className="container">
+      <div>
+      {!dataLoaded && <img src={loader} />}
+      {dataLoaded && <div className="container">
         <TabHeading activeTab={activeTab} changeActiveTab={this.changeActiveTab.bind(this)} />
         <CampaignsDetail activeTab={activeTab} data={config} onChange={this.onChange.bind(this)} />
-      </div>
-    );
+      </div>}
+      </div>)
+    
   }
 }
 
