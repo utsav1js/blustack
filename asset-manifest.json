@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/blustack/static/css/main.f9c2f316.chunk.css",
-    "main.js": "/blustack/static/js/main.c01b5a8e.chunk.js",
-    "main.js.map": "/blustack/static/js/main.c01b5a8e.chunk.js.map",
+    "main.css": "/blustack/static/css/main.fc26af92.chunk.css",
+    "main.js": "/blustack/static/js/main.128a1df2.chunk.js",
+    "main.js.map": "/blustack/static/js/main.128a1df2.chunk.js.map",
     "runtime-main.js": "/blustack/static/js/runtime-main.ae0a3c7c.js",
     "runtime-main.js.map": "/blustack/static/js/runtime-main.ae0a3c7c.js.map",
     "static/css/2.b90ce945.chunk.css": "/blustack/static/css/2.b90ce945.chunk.css",
     "static/js/2.ab425523.chunk.js": "/blustack/static/js/2.ab425523.chunk.js",
     "static/js/2.ab425523.chunk.js.map": "/blustack/static/js/2.ab425523.chunk.js.map",
     "index.html": "/blustack/index.html",
-    "precache-manifest.60aea9e5e95236ff8a7ea6144cad6ab3.js": "/blustack/precache-manifest.60aea9e5e95236ff8a7ea6144cad6ab3.js",
+    "precache-manifest.0b43b2e578fe5304c30be79fb5e57781.js": "/blustack/precache-manifest.0b43b2e578fe5304c30be79fb5e57781.js",
     "service-worker.js": "/blustack/service-worker.js",
     "static/css/2.b90ce945.chunk.css.map": "/blustack/static/css/2.b90ce945.chunk.css.map",
-    "static/css/main.f9c2f316.chunk.css.map": "/blustack/static/css/main.f9c2f316.chunk.css.map",
+    "static/css/main.fc26af92.chunk.css.map": "/blustack/static/css/main.fc26af92.chunk.css.map",
     "static/media/80.png": "/blustack/static/media/80.30b942c3.png",
-    "static/media/camp1.png": "/blustack/static/media/camp1.977ecf7b.png",
-    "static/media/camp3.png": "/blustack/static/media/camp3.3ecfc5bd.png",
-    "static/media/camp4.png": "/blustack/static/media/camp4.8a4d68db.png",
-    "static/media/camp5.png": "/blustack/static/media/camp5.c161ba4a.png",
-    "static/media/camp6.png": "/blustack/static/media/camp6.e51f42c3.png",
-    "static/media/camp7.png": "/blustack/static/media/camp7.90640a87.png",
-    "static/media/camp8.png": "/blustack/static/media/camp8.7173cfe7.png",
-    "static/media/logo.png": "/blustack/static/media/logo.aff6dfc6.png"
+    "static/media/logo.png": "/blustack/static/media/logo.aff6dfc6.png",
+    "static/media/pic1.png": "/blustack/static/media/pic1.977ecf7b.png",
+    "static/media/pic3.png": "/blustack/static/media/pic3.3ecfc5bd.png",
+    "static/media/pic4.png": "/blustack/static/media/pic4.8a4d68db.png",
+    "static/media/pic5.png": "/blustack/static/media/pic5.c161ba4a.png",
+    "static/media/pic6.png": "/blustack/static/media/pic6.e51f42c3.png",
+    "static/media/pic7.png": "/blustack/static/media/pic7.90640a87.png",
+    "static/media/pic8.png": "/blustack/static/media/pic8.7173cfe7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae0a3c7c.js",
     "static/css/2.b90ce945.chunk.css",
     "static/js/2.ab425523.chunk.js",
-    "static/css/main.f9c2f316.chunk.css",
-    "static/js/main.c01b5a8e.chunk.js"
+    "static/css/main.fc26af92.chunk.css",
+    "static/js/main.128a1df2.chunk.js"
   ]
 }
