@@ -2,7 +2,7 @@ import React,{Component} from "react";
 import "./Campaigns.css";
 import CampaignsDetail from "../CampaignDetail";
 import TabHeading from "../TabHeading";
-import loader from "../../assets/loader.svg";
+import loader from "../../assets/loader.gif";
 
 class Campaigns extends Component {
 
@@ -44,11 +44,10 @@ class Campaigns extends Component {
   
 
   render() {
-    debugger;
     let { activeTab , config, dataLoaded} = this.state;
     return (
       <div>
-      {!dataLoaded && <img src={loader} />}
+      {!dataLoaded && <div className="textalign">data loading......</div> }
       {dataLoaded && <div className="container">
         <TabHeading activeTab={activeTab} changeActiveTab={this.changeActiveTab.bind(this)} />
         <CampaignsDetail activeTab={activeTab} data={config} onChange={this.onChange.bind(this)} />
